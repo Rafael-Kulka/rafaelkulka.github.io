@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="styles/style.css" media="screen" />
+      <link rel="stylesheet" type="text/css" href="styles/background.css" media="screen" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap" rel="stylesheet">
+      <link rel="icon" href="https://images.emojiterra.com/mozilla/512px/1f4bb.png">
+      <title>Rafael Kulka</title>
+   </head>
+   <body>
+      <!--Config Background-->
+      <div class="container">
+         <div class="box"></div>
+         <canvas class="particles"></canvas>
+         <div class="glow"></div>
+      </div>
+      <div id="content">
+         <header>
+            <p id="title">Olá,<br> meu nome é &lt;b&gt;Rafael Kulka&lt;/b&gt;,<br> E sou Desenvolvedor de software!</p>
+            <p class="bold">Sou especialista no desenvolvimento de complementos para o SAP Business One. 💻</p>
+            <nav id="esq">
+               <div class="mobile-menu">
+                  <div class="line1"></div>
+                  <div class="line2"></div>
+                  <div class="line3"></div>
+               </div>
+               <div class="nav-list">
+                  <a href="#" id="toggle-particles">Desativar animação</a>
+                  <a href="#" class="link">Blog</a>
+                  <a href="https://drive.google.com/file/d/1rDj8PZcUan52zihk5_ZrfZFpDb8W0oWi/view?usp=sharing" class="link" target="_blank">Baixar CV</a>
+                  <a href="#contato" class="button">Contato</a>
+               </div>
+            </nav>
+            
+         </header>
+         <div id="texto">
+            <h1 class="tituloh1">Sobre mim</h1>
+            <br>
+            <p id="apresentacao" class="text">Meu nome é Rafael André Kulka, tenho 23 anos e sou um entusiasta da tecnologia. Desde que comecei a estudar na faculdade em 2019, meu interesse pela programação só aumentou. Desde então, tenho me dedicado a aprimorar minhas habilidades e a me tornar um programador cada vez melhor.</p>
+            <br>
+            <p class="text">Atualmente, possuo habilidades sólidas em diversas áreas, incluindo banco de dados, .NET, ASP.NET, SDK for SAP Business One, Service Layer SAP Business One e Crystal Reports. Estou sempre buscando novos desafios e oportunidades para expandir meu conhecimento e experiência na área de tecnologia.</p>
+         </div>
+         <div id="texto">
+            <h1 class="tituloh1">Graduação</h1>
+            <br>
+            <p class="tituloh2">UFPR - Universidade Federal do Paraná</p>
+            <p class="tituloh3">Análise e desenvolvimento de sistemas</p>
+            <p class="textSlim">em andamento</p>
+            <p class="textSlim">fev de 2019</p>
+            <p class="textSlim">Curitiba, Paraná, Brasil</p>
+         </div>
+         <br><br><br>
+         <div id="ListCursos">
+            <h1 class="tituloh1">Cursos</h1> 
+            <p class="textSlim">121.312 Cursos</p>
+            <br>
+            <p class="tituloh3">Filtrar por instiuição:</p>
+            <div id="FilterInstitution">
+               <!--<spam id="filterIBtnR">Remover todos</spam>-->
+            </div>
+            <p class="tituloh3">Filtrar por tag do curso:</p>
+            <div id="FilterCourse">
+               <!--<spam id="filterCBtnR">Remover todos</spam>-->
+            </div>
+            <br>
+            
+            <div id="resultCourses"></div>
+            <div id="Navigation"></div>
+         </div>
+         <br><br><br><br>
+         <div id="contato">
+            <h1 class="h1Contato">Contato</h1>
+            <br>
+            <p class="h3Contato">Rafael André Kulka</p>
+            <p class="textContato"><b>Localização: </b>Brasil, Campo Largo/PR</p>
+            <p class="textContato"><b>E-mail: </b>contato@rafaelkulka.dev</p>
+            <p class="textContato"><b>Nascimento: </b>17/05/2001</p>
+            <p class="textContato"><b>Website: </b>rafaelkulka.dev</p>
+            <p class="textContato"><b>LinkdIn: </b>rafael kulka</p>
+            <p class="textContato"><b>Github: </b>Rafael-Kulka</p>
+            <p class="textContato"><b>Discord: </b>Rafael Kulka#9496</p>
+            <br>
+            <div class="icons">
+               <a href="https://github.com/Rafael-Kulka"><img class="img git" src="icons\github-.png"\></a>
+               <a href="https://www.linkedin.com/in/rafael-kulka/"><img class="img" src="icons\linkedin.png"\></a>
+            </div>
+         </div>
+         <br>
+         <p class="text">Obrigado por visitar meu website. Ficarei feliz em responder qualquer pergunta ou discutir oportunidades futuras. Entre em contato comigo para saber mais sobre meus projetos e como posso ajudá-lo em seus esforços.</p>
+         <footer>
+            <p>Copyright © 2023 Rafael Kulka. 
+               Todos os direitos reservados.
+            </p>
+            <br>
+            <a id="voltaTopo" href="#" onclick="scrollToTop()">Voltar ao topo</a></p>
+         </footer>
+      </div>
+      <script type="text/javascript" src="scripts/processData.js"></script>
+      <script type="text/javascript" src="scripts/script.js"></script>
+      <script type="text/javascript" src="scripts/animationS.js"></script>
+   </body>
+</html>

@@ -1,0 +1,388 @@
+
+:root {
+    --font-style: normal;
+    
+    --font-weight-regular: 200;
+    --font-weight-semibold: 400;
+    --font-weight-black: 700;
+    --font-weight-bold: 500;
+    --font-weight-extrabold: 600;
+    --font-weight-mixed: 400;
+
+    --font-size-base: 16px;
+    --line-height-base: 19px;
+}
+
+/* Definir estilos globais */
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: none;
+  }
+  
+  /* Estilos para o body */
+  body {
+    background-color: #121212;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #fff;
+  }
+  
+  /* Estilos para o container */
+  #content {
+    
+    margin-top: 2%;
+  }
+  
+  /* Estilos para o título */
+  #title {
+    font-weight: var(--font-weight-mixed);
+    font-size: 30px;
+    line-height: 30px;
+  }
+  
+  /* Estilos para o link */
+  .link {
+    font-weight: var(--font-weight-black);
+    font-size: 14px;
+    line-height: 13px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+  }
+  #toggle-particles{
+    font-weight: var(--font-weight-black);
+    font-size: 14px;
+    line-height: 13px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+  }
+  /* Estilos para o texto negrito */
+  .textBold {
+    font-weight: var(--font-weight-bold);
+    font-size: 14px;
+    line-height: 16px;
+  }
+  header{
+    margin-left: 2%;
+  }
+  /* Estilos para o botão */
+  .button {
+    margin-left: 20px;
+    background-color: #6959D0;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-weight: var(--font-weight-black);
+    font-size: 18px;
+    line-height: 23px;
+    padding: 15px 45px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #5548ac;
+  }
+  
+  .button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  /* Estilos para o texto */
+  #texto {
+    margin-top: 5%;
+  }
+  
+  .tituloh1 {
+    text-align: center;
+    font-weight: var(--font-weight-black);
+  }
+  
+  .tituloh2 {
+    font-weight: var(--font-weight-black);
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+  }
+  
+  .tituloh3 {
+    font-weight: var(--font-weight-semibold);
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+  }
+  
+  .text {
+    padding-left: 35%;
+    padding-right: 35%;
+    font-weight: var(--font-weight-semibold);
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+  }
+  
+  .textSlim {
+    font-weight: var(--font-weight-regular);
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+  }
+  
+  /* Estilos para o segundo título */
+  .titulo2 {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  /* Estilos para as imagens */
+  .img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+  }
+  
+  /* Estilos para os ícones */
+  .icons {
+    text-align: center;
+  }
+  
+  /* Estilos da barra de rolagem */
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #121212;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #6959D0;
+    border-radius: 20px;
+    border: 3px solid #121212;
+  }
+  
+  /* Estilos para o conteúdo à esquerda */
+  #esq {
+    position: absolute;
+    top: 10px;
+    right: 2%;
+}
+
+#resultCourses{
+  width: 50%;
+  height: 30%;
+  border: 2px solid #6959D0;
+
+  margin: 0 auto;
+}
+
+.coursesPeriodo{
+  vertical-align: middle;
+  padding: 20px;
+  width: 110px;
+}
+
+.coursesDetails{
+  padding: 10px;
+}
+
+.coursesTitle{
+  padding: 10px 0px 5px 0px;
+}
+
+.coursesTitle{
+  font-weight: var(--font-weight-semibold);
+    font-size: 16px;
+    line-height: 19px; 
+}
+
+.coursesTag{
+  font-weight: var(--font-weight-regular);
+    font-size: 14px;
+    line-height: 19px; 
+}
+
+.coursesCertification{
+  color: #0066FF;
+}
+
+.filterIBtn{
+  margin: 1px;
+  border-radius: 20px;
+  padding: 3px 8px 3px 8px;
+  cursor:pointer;
+}
+
+
+.filterIBtnR{ 
+  margin: 1px;
+  background-color: #0066FF;
+  border-radius: 20px;
+  padding: 3px 8px 3px 8px;
+  cursor:pointer;
+}
+
+/*exemplo do botão selecionado*/
+.filterIBtnS{
+  margin: 1px;
+  border-radius: 20px;
+  border: 1px solid #0066FF;
+  padding: 3px 8px 3px 8px;
+  cursor:pointer;
+}
+
+#FilterInstitution{
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+#FilterCourse{
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+.filterCBtn{
+  margin: 1px;
+  border-radius: 20px;
+  padding: 3px 8px 3px 8px;
+  cursor:pointer;
+}
+
+.filterCBtnR{
+  background-color: #0066FF;
+  margin: 1px;
+  border-radius: 20px;
+  padding: 3px 8px 3px 8px;
+  cursor:pointer;
+}
+
+
+#Navigation{
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+.NavigationOptions{
+  background-color: #6959D0;
+  margin: 1px;
+  padding: 5px 10px 5px 10px;
+  cursor:pointer;
+}
+
+#contato{
+  width: 35%;
+  margin: 0 auto;
+  border: 2px solid #6959D0;
+}
+
+.textContato{
+  text-align: left;
+  padding-left: 10px;
+}
+
+.h1Contato{
+  text-align: center;
+}
+.h3Contato{
+  text-align: left;
+  padding-left: 10px;
+  font-weight: var(--font-weight-bold); 
+}
+
+footer {
+  background-color: #6959D0;
+  padding: 40px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.mobile-menu{
+  display: none;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+  margin: 8px;
+}
+
+@media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    height: 92vh;
+    background: #121212;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-list a {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
+
+
+  #contato{
+    width: 90%;
+  }
+
+  .text {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #resultCourses{
+    width: 90%;
+  }
+}
+
+.nav-list.active {
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}

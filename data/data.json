@@ -1,0 +1,105 @@
+{
+    "tags":[
+       {
+          "tag":".NET"
+       },
+       {
+          "tag":"C#"
+       },
+       {
+          "tag":"Javascript"
+       },
+       {
+          "tag":"JAVA"
+       }
+    ],
+    "Institutes":[
+       {
+          "Institute":"Alura"
+       },
+       {
+          "Institute":"Udemy"
+       },
+       {
+          "Institute":"Coursera"
+       }
+    ],
+    "courses":[
+       {
+          "coursesPeriodo":"10/03/2023 21:59:32z",
+          "coursesDetails":{
+             "coursesTitle":"CURSO A",
+             "coursesTag":[
+                {
+                   "tag":".NET"
+                },
+                {
+                   "tag":"C#"
+                },
+                {
+                   "tag":"Programação"
+                }
+             ],
+             "coursesInstitution":"Alura",
+             "coursesCertification":"https://alura.com.br/certificado/rafael-kulka/CursoA"
+          }
+       },
+       {
+          "coursesPeriodo":"10/03/2023 21:59:32z",
+          "coursesDetails":{
+             "coursesTitle":"CURSO B",
+             "coursesTag":[
+                {
+                   "tag":".NET"
+                },
+                {
+                   "tag":"C#"
+                },
+                {
+                   "tag":"Programação"
+                }
+             ],
+             "coursesInstitution":"Alura",
+             "coursesCertification":"https://alura.com.br/certificado/rafael-kulka/CursoB"
+          }
+       },
+       {
+          "coursesPeriodo":"10/03/2023 21:59:32z",
+          "coursesDetails":{
+             "coursesTitle":"CURSO C",
+             "coursesTag":[
+                {
+                   "tag":".NET"
+                },
+                {
+                   "tag":"C#"
+                },
+                {
+                   "tag":"Programação"
+                }
+             ],
+             "coursesInstitution":"Alura",
+             "coursesCertification":"https://alura.com.br/certificado/rafael-kulka/CursoC"
+          }
+       },
+       {
+          "coursesPeriodo":"10/03/2023 21:59:32z",
+          "coursesDetails":{
+             "coursesTitle":"CURSO D",
+             "coursesTag":[
+                {
+                   "tag":".NET"
+                },
+                {
+                   "tag":"C#"
+                },
+                {
+                   "tag":"Programação"
+                }
+             ],
+             "coursesInstitution":"Alura",
+             "coursesCertification":"https://alura.com.br/certificado/rafael-kulka/CursoD"
+          }
+       }
+    ]
+ }
