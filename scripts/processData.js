@@ -21,14 +21,12 @@ var data = {
             tag: "MySQL"
         }*/
     ],
-    Institutes: [{
-        Institute: "Alura"
-    },
+    Institutes: [
     {
         Institute: "Udemy"
     },
     {
-        Institute: "Coursera"
+        Institute: "freecodecamp"
     }
     ],
     courses: [{
@@ -44,21 +42,19 @@ var data = {
             coursesCertification: "http://ude.my/UC-6d989509-247d-43da-9cba-6636af507c07"
         }
     },
-    /* {
-         coursesPeriodo: "Março, 2022",
+     {
+         coursesPeriodo: "Fevereiro, 2024",
          coursesDetails: {
-             coursesTitle: "Curso Web API ASP .NET Core Essencial (.NET 6)",
+             coursesTitle: "Foundational C# with Microsoft Certification Exam",
              coursesTag: [
                  ".NET",
-                 "C#",
-                 "ASP.NET",
-                 "Programação"
+                 "C#"
              ],
-             coursesInstitution: "Udemy",
-             coursesCertification: "#"
+             coursesInstitution: "freecodecamp",
+             coursesCertification: "https://www.freecodecamp.org/certification/fcc87fdfdd6-4c9d-48d0-a050-0b78fde503e6/foundational-c-sharp-with-microsoft"
          }
      },
-     {
+   /*  {
          coursesPeriodo: "Abril, 2022",
          coursesDetails: {
              coursesTitle: "Linguagem de programação C# - Avançado",
@@ -106,7 +102,7 @@ data.courses.forEach(obj => {
             <p class="coursesTitle">${obj.coursesDetails.coursesTitle}</p>
             <p class="coursesTag"><b>Tags: </b>${obj.coursesDetails.coursesTag.join(" | ")}</p>
             <p class="coursesInstitution"><b>Instituição:</b> ${obj.coursesDetails.coursesInstitution}</p>
-            <a href="${obj.coursesDetails.coursesCertification}" class="coursesCertification">Certificado</a>
+            <a href="${obj.coursesDetails.coursesCertification}" target="_blank" class="coursesCertification">Certificado</a>
         </td>
     </tr>
 </table>`;
@@ -156,7 +152,7 @@ divs.forEach(function (div) {
                     <p class="coursesTitle">${obj.coursesDetails.coursesTitle}</p>
                     <p class="coursesTag"><b>Tags: </b>${obj.coursesDetails.coursesTag.join(" | ")}</p>
                     <p class="coursesInstitution"><b>Instituição:</b> ${obj.coursesDetails.coursesInstitution}</p>
-                    <a href="${obj.coursesDetails.coursesCertification}" class="coursesCertification">Certificado</a>
+                    <a href="${obj.coursesDetails.coursesCertification}" target="_blank" class="coursesCertification">Certificado</a>
                 </td>
             </tr>
         </table>`;
@@ -173,7 +169,7 @@ divs.forEach(function (div) {
                 <p class="coursesTitle">${obj.coursesDetails.coursesTitle}</p>
                 <p class="coursesTag"><b>Tags: </b>${obj.coursesDetails.coursesTag.join(" | ")}</p>
                 <p class="coursesInstitution"><b>Instituição:</b> ${obj.coursesDetails.coursesInstitution}</p>
-                <a href="${obj.coursesDetails.coursesCertification}" class="coursesCertification">Certificado</a>
+                <a href="${obj.coursesDetails.coursesCertification}" target="_blank" class="coursesCertification">Certificado</a>
             </td>
         </tr>
     </table>`;
@@ -221,7 +217,7 @@ divs.forEach(function (div) {
                     <p class="coursesTitle">${obj.coursesDetails.coursesTitle}</p>
                     <p class="coursesTag"><b>Tags: </b>${obj.coursesDetails.coursesTag.join(" | ")}</p>
                     <p class="coursesInstitution"><b>Instituição:</b> ${obj.coursesDetails.coursesInstitution}</p>
-                    <a href="${obj.coursesDetails.coursesCertification}" class="coursesCertification">Certificado</a>
+                    <a href="${obj.coursesDetails.coursesCertification}" target="_blank" class="coursesCertification">Certificado</a>
                 </td>
             </tr>
         </table>`;
@@ -238,7 +234,7 @@ divs.forEach(function (div) {
                         <p class="coursesTitle">${obj.coursesDetails.coursesTitle}</p>
                         <p class="coursesTag"><b>Tags: </b>${obj.coursesDetails.coursesTag.join(" | ")}</p>
                         <p class="coursesInstitution"><b>Instituição:</b> ${obj.coursesDetails.coursesInstitution}</p>
-                        <a href="${obj.coursesDetails.coursesCertification}" class="coursesCertification">Certificado</a>
+                        <a href="${obj.coursesDetails.coursesCertification}" target="_blank" class="coursesCertification">Certificado</a>
                     </td>
                 </tr>
             </table>`;

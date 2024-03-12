@@ -306,6 +306,11 @@ footer {
   margin-top: 100px;
 }
 
+.linkContato {
+  text-decoration: none;
+  color: white;
+}
+
 .mobile-menu{
   display: none;
   cursor: pointer;

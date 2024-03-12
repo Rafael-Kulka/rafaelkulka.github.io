@@ -55,9 +55,9 @@ window.addEventListener('mousemove', (event) => {
   const centerX = event.clientX - container.offsetLeft;
   const centerY = event.clientY - container.offsetTop;
   for (let i = 0; i < 5; i++) {
-    const radius = Math.random() * 2 + 1;
+    const radius = Math.random() * 2 ;
     const color = `${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}`;
-    const speed = Math.random() * 3 + 1;
+    const speed = Math.random() * 10;
     const direction = Math.random() * Math.PI * 2;
     particles.push(new Particle(centerX, centerY, radius, color, speed, direction));
   }
